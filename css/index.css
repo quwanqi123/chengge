@@ -1,0 +1,41 @@
+*{
+    padding:0;
+    margin: 0;
+}
+ul,ol {list-style: none;}
+body{
+    background-color: #F7F8FA;
+    height:100%;
+}
+.cont{
+	width: 100%;
+	overflow: hidden;
+}
+.left_box{
+	width: 100%;
+}
+.left_box p{
+    width:85%;
+    margin-left: 100px;
+    font-size: 14px;
+}
+table{
+    font-size: 12px;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 5px;
+    line-height: 1.2;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+.right_box{
+	width: 85%;
+    margin:0 auto;
+}
+.red{
+    color:red;
+}
+h4{
+    font-weight: 600;
+    text-align: center;
+}
